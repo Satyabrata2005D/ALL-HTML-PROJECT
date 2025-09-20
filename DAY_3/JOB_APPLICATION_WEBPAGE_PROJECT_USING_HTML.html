@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <h1>JOB APPLICATION : WEB DEVELOPMENT</h1>
+        <h5>THANK YOU FOR YOUR INTEREST IN JOINING OUR TEAM . PLEASE FILL THE APPLICATION VERY CAREFULLY . GOOD WISHES FOR YOUR FUTURE .</h5>
+
+        <br>
+        <hr>
+        <br>
+
+        <fieldset>
+        <legend><h3>PERSONAL INFORMATION --> </h3></legend>
+        <p>----------------------------------------------------------</p>
+     
+        <label for="name">First Name :- </label>
+        <input type="text" name="name" id="name" placeholder="e.g. Ishwar" required>
+        <label for="name">Middle Name :- </label>
+        <input type="text" name="name" id="name" placeholder="Chandra">
+        <label for="name">Last Name :- </label>
+        <input type="text" name="name" id="name" placeholder="e.g. Vidyasagar" required>
+        
+
+        <br><br>
+
+        <label for="birthday">Date of birth :-</label>
+        <input type="date" name="birthday" id="birthday" required>
+        
+        <br>
+
+        Gender :-
+        <input type="radio" name="gender" id="male" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="Other" required>
+        <label for="other">Other , </label>
+        <label for="specify"> If "Other" ,  please specify the gender</label>
+        <input type="text" name="specify" id="specify" placeholder="Gender only for others">
+        
+        <br><br>
+
+        Citizenship :-
+        <input type="radio" name="citizenship" id="India" value="India" readonly required>
+        <label for="citizenship">India</label>
+        <input type="radio" name="citizenship" id="Other" value="Other" required>
+        <label for="citizenship">Other , </label>
+        <label for="specify"> If "Other" , please specify the country</label>
+        <input type="text" name="specify" id="specify" placeholder="e.g. Brazil , Paris etc.">
+
+        <br><br>
+
+        <label for="state">State :-</label>
+        <select id="state" name="state" required>
+            <option value="state" disabled selected>Select your state</option>
+        <optgroup label="States">
+            <option value="andhra-pradesh">Andhra Pradesh</option>
+            <option value="arunachal-pradesh">Arunachal Pradesh</option>
+            <option value="assam">Assam</option>
+            <option value="bihar">Bihar</option>
+            <option value="chhattisgarh">Chhattisgarh</option>
+            <option value="goa">Goa</option>
+            <option value="gujarat">Gujarat</option>
+            <option value="haryana">Haryana</option>
+            <option value="himachal-pradesh">Himachal Pradesh</option>
+            <option value="jharkhand">Jharkhand</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="kerala">Kerala</option>
+            <option value="madhya-pradesh">Madhya Pradesh</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="manipur">Manipur</option>
+            <option value="meghalaya">Meghalaya</option>
+            <option value="mizoram">Mizoram</option>
+            <option value="nagaland">Nagaland</option>
+            <option value="odisha">Odisha</option>
+            <option value="punjab">Punjab</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="sikkim">Sikkim</option>
+            <option value="tamil-nadu">Tamil Nadu</option>
+            <option value="telangana">Telangana</option>
+            <option value="tripura">Tripura</option>
+            <option value="uttar-pradesh">Uttar Pradesh</option>
+            <option value="uttarakhand">Uttarakhand</option>
+            <option value="west-bengal">West Bengal</option>
+        </optgroup>
+        <optgroup label="Union Territories">
+            <option value="andaman-and-nicobar">Andaman &amp; Nicobar Islands</option>
+            <option value="chandigarh">Chandigarh</option>
+            <option value="dadra-and-nagar-haveli-and-daman-and-diu">Dadra &amp; Nagar Haveli and Daman &amp; Diu</option>
+            <option value="delhi">Delhi (NCT)</option>
+            <option value="jammu-and-kashmir">Jammu &amp; Kashmir</option>
+            <option value="ladakh">Ladakh</option>
+            <option value="lakshadweep">Lakshadweep</option>
+            <option value="puducherry">Puducherry</option>
+        </optgroup>
+        </select>
+
+        <br><br>
+
+        <label for="city">City:</label>
+        <select name="city" id="city" required>
+            <option value="" disabled selected>Select your city</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="kolkata">Kolkata</option>
+            <option value="chennai">Chennai</option>
+            <option value="bengaluru">Bengaluru</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="pune">Pune</option>
+            <option value="ahmedabad">Ahmedabad</option>
+            <option value="jaipur">Jaipur</option>
+            <option value="lucknow">Lucknow</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="specify"> If "Other" , please specify the country</label>
+        <input type="text" name="specify" id="specify" placeholder="e.g. Kolkata , Gangtok etc.">
+
+        <br><br>
+
+        <label for="userphoto">Upload your photo</label>
+        <input type="file" name="userphoto" id="userphoto">
+
+        <br><br>
+
+        <label for="socialmedia">Choose any of your social media : -</label>
+        <select name="socialmedia" id="socialmedia">
+            <option value="linkedin">Linkedin</option>
+            <option value="github">Github</option>
+            <option value="youtube">YouTube</option>
+            <option value="facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="specify"> If "Other" , please specify the name of your social media</label>
+        <input type="text" name="specify" id="specify" placeholder="e.g. X , TikTok etc.">
+
+        <br><br>
+
+        <label for="link">Your choosen social-media platform link :-</label>
+        <input type="link" name="link" id="link" placeholder="e.g. Linkedin profile link etc.">
+        </fieldset>
+
+        <br>
+        <hr>
+        <br>
+
+        <fieldset>
+        <legend><h3>CONTACT INFORMATION --></h3></legend>
+        <p>--------------------------------------------------------------</p>
+
+        <label for="email">Email Address :-</label>
+        <input type="email" name="email" id="email" placeholder="abc123@gmail.com">
+
+        <br><br>
+
+        <label for="number">Phone Number :-</label>
+        <input type="number" name="number" id="number" placeholder="64******12">
+
+        <br><br>
+
+        <label for="Address">Home address :-</label> <br>
+        <textarea name="address" id="address" rows="10" cols="30"></textarea>
+
+        <br><br>
+
+        <label for="street-name">Street name :-</label>
+        <input type="text" name="street-name" id="street-name">
+
+        <br><br>
+
+        <label for="number">Pincode :-</label>
+        <input type="number" name="number" id="number">
+        </fieldset>
+
+        <br>
+        <hr>
+        <br>
+
+        <fieldset>
+        <legend><h3>ACADEMIC INFORMATION --></h3></legend>
+        <p>--------------------------------------------------------------</p>
+
+        <label for="college-name" >College name :-</label>
+        <select name="college-name" id="college-name" required>
+            <option value="select-your-college-name" disabled selected>Select your college name</option>
+            <option value="jadavpur-university">Jadavpur University</option>
+            <option value="narula-institute-of-technology">Narula Institute Of Technology</option>
+            <option value="guru-nanak-institute-of-technology">Guru Nanak Institute Of Technology</option>
+            <option value="jis-college-of-engineering">JIS College of Engineering</option>
+            <option value="techno-main-saltlake">Techno Main Saltlake</option>
+            <option value="heritage-institute-of-technology">Heritage Institute of Technology</option>
+            <option value="iem-saltlake">IEM SALTlAKE</option>
+            <option value="kiit">KIIT</option>
+            <option value="any-iit">ANY IIT</option>
+            <option value="any-nit">ANY NIT</option>
+            <option value="any-iiit">ANY IIIT</option>
+            <option value="any-bits">BITS</option>
+            <option value="any-mit">MIT</option>
+            <option value="any-vit">VIT</option>
+            <option value="others">OTHERS</option>
+        </select>
+        <input type="text" name="college-name" id="college-name" placeholder="for others write your college name">
+
+        <br><br>
+
+        <label for="course">Course (B.TECH/B.E. in) :-</label>
+        <select name="course" id="course" required>
+            <option value="select-your-course" disabled selected>Select your course</option>
+            <option value="cse">CSE</option>
+            <option value="ece">ECS</option>
+            <option value="ecs">ECS</option>
+            <option value="it">IT</option>
+            <option value="cse-any-sub-brunch">ANY CSE SUB-BRUNCH</option>
+            <option value="others">Others</option>
+        </select>
+        <input type="text" name="course" id="course" placeholder="others must fill the box">
+
+        <br><br>
+
+        <label for="session-start-date-graduation">Session start date :-</label>
+        <input type="date" name="session-start-date-graduation" id="session-start-date-graduation">
+        
+        <br><br>
+
+        <label for="session-end-date">Session end date :-</label>
+        <input type="date" name="session-end-date" id="session-end-date">
+
+        <br><br>
+
+        <label for="b.tech/be-marks">Marks for graduation in percentage (%) :-</label>
+        <input type="number" name="b.tech/be-marks" id="b.tech/be-marks">
+
+        <br><br>
+
+        <label for="school-name-class-12th">School name (12th) :-</label>
+        <input type="text" name="school-name-class-12th" id="school-name-class-12th">
+
+        <br><br>
+
+        <label for="passing-year-class-12th">Passing year for class 12th :-</label>
+        <input type="number" name="passing-year-class-12th" id="passing-year-class-12th">
+
+        <br><br>
+
+        <label for="class12th-marks">Marks for class 12th in percentage (%)</label>
+        <input type="number" name="class12th-marks" id="class12th-marks">
+
+        <br><br>
+
+        <label for="school-name-class-10th">School name (10th) :-</label>
+        <input type="text" name="school-name-class-10th" id="school-name-class-10th">
+
+        <br><br>
+
+        <label for="passing-year-class-10th">Passing year for class 10th :-</label>
+        <input type="number" name="passing-year-class-10th" id="passing-year-class-10th">
+
+        <br><br>
+
+        <label for="class10th-marks">Marks for class 10th in percentage (%)</label>
+        <input type="number" name="class10th-marks" id="class10th-marks">
+
+        <br><br>
+
+        <label for="extracurricular-interest">Extracurricular Interest :-</label>
+        <input type="checkbox" name="play" id="play">
+        <label for="play">Sports</label>
+        <input type="checkbox" name="play" id="play">
+        <label for="play">Music , Dance & Arts</label>
+        <input type="checkbox" name="play" id="play">
+        <label for="play">Volunteering & Photography</label>
+        <input type="checkbox" name="play" id="play">
+        <label for="play">Others</label> 
+        <label for="others">, if you select others option then you need fill the box</label> 
+        <input type="text" name="others" id="others"> 
+        
+        <br><br>
+
+        <label for="expreience">Expreience (Including Internship) :-</label>
+        <input type="number" name="expreience" id="expreience">
+
+        <br><br>
+
+        <label for="company-name">Company name :-</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">GOOGLE</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">UBER</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">APPLE</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">AMAZON</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">GOLDMAN SACHS</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">BOSTON CONSULTING GROUP</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">KPMG</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">DELOITEE</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">EY</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">TCS</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">COGNIZANT</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">CAPGEMINI</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">ACCENTURE</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">WIPRO</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">GENPACT</label><br>
+        <input type="checkbox" name="company-name" id="company-name">
+        <label for="company-name">Others</label>
+        <label for="others"> , if you select others option then you fill the box</label>
+        <input type="text" name="others" id="others">
+
+        <br><br>
+
+        <label for="course-you-have-done">Number of course you have done ( MAXIMUM 7 ) :-</label>
+        <input type="number" name="course-you-have-done" id="course-you-have-done">
+
+        <br><br>
+
+        <label for="course-name">Course name : -</label><br>
+        <select name="course-name" id="course-name">
+            <option value="select your case" disabled selected>Select your case</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="springboot">SpringBoot</option>
+            <option value="nodejs">NodeJs</option>
+            <option value=".net">.NET</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+            <option value="ruby">RUBY</option>
+            <option value="mysql">MySQL</option>
+            <option value="mong0db">mongoDB</option>
+            <option value="aws">AWS</option>
+            <option value="docker">DOCKER</option>
+            <option value="kubernetes">Kubernetes</option>
+            <option value="laravel">LARAVEL</option>
+        </select><br>
+        <select name="course-name" id="course-name">
+            <option value="select your case" disabled selected>Select your case</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="springboot">SpringBoot</option>
+            <option value="nodejs">NodeJs</option>
+            <option value=".net">.NET</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+            <option value="ruby">RUBY</option>
+            <option value="mysql">MySQL</option>
+            <option value="mong0db">mongoDB</option>
+            <option value="aws">AWS</option>
+            <option value="docker">DOCKER</option>
+            <option value="kubernetes">Kubernetes</option>
+            <option value="laravel">LARAVEL</option>
+        </select><br>
+        <select name="course-name" id="course-name">
+            <option value="select your case" disabled selected>Select your case</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="springboot">SpringBoot</option>
+            <option value="nodejs">NodeJs</option>
+            <option value=".net">.NET</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+            <option value="ruby">RUBY</option>
+            <option value="mysql">MySQL</option>
+            <option value="mong0db">mongoDB</option>
+            <option value="aws">AWS</option>
+            <option value="docker">DOCKER</option>
+            <option value="kubernetes">Kubernetes</option>
+            <option value="laravel">LARAVEL</option>
+        </select><br>
+        <select name="course-name" id="course-name">
+            <option value="select your case" disabled selected>Select your case</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="springboot">SpringBoot</option>
+            <option value="nodejs">NodeJs</option>
+            <option value=".net">.NET</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+            <option value="ruby">RUBY</option>
+            <option value="mysql">MySQL</option>
+            <option value="mong0db">mongoDB</option>
+            <option value="aws">AWS</option>
+            <option value="docker">DOCKER</option>
+            <option value="kubernetes">Kubernetes</option>
+            <option value="laravel">LARAVEL</option>
+        </select><br>
+        <select name="course-name" id="course-name">
+            <option value="select your case" disabled selected>Select your case</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="springboot">SpringBoot</option>
+            <option value="nodejs">NodeJs</option>
+            <option value=".net">.NET</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+            <option value="ruby">RUBY</option>
+            <option value="mysql">MySQL</option>
+            <option value="mong0db">mongoDB</option>
+            <option value="aws">AWS</option>
+            <option value="docker">DOCKER</option>
+            <option value="kubernetes">Kubernetes</option>
+            <option value="laravel">LARAVEL</option>
+        </select><br>
+        <select name="course-name" id="course-name">
+            <option value="select your case" disabled selected>Select your case</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="springboot">SpringBoot</option>
+            <option value="nodejs">NodeJs</option>
+            <option value=".net">.NET</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+            <option value="ruby">RUBY</option>
+            <option value="mysql">MySQL</option>
+            <option value="mong0db">mongoDB</option>
+            <option value="aws">AWS</option>
+            <option value="docker">DOCKER</option>
+            <option value="kubernetes">Kubernetes</option>
+            <option value="laravel">LARAVEL</option>
+        </select><br>
+        <select name="course-name" id="course-name">
+            <option value="select your case" disabled selected>Select your case</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="springboot">SpringBoot</option>
+            <option value="nodejs">NodeJs</option>
+            <option value=".net">.NET</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+            <option value="ruby">RUBY</option>
+            <option value="mysql">MySQL</option>
+            <option value="mong0db">mongoDB</option>
+            <option value="aws">AWS</option>
+            <option value="docker">DOCKER</option>
+            <option value="kubernetes">Kubernetes</option>
+            <option value="laravel">LARAVEL</option>
+        </select><br>
+        <select name="course-name" id="course-name">
+            <option value="select your case" disabled selected>Select your case</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="springboot">SpringBoot</option>
+            <option value="nodejs">NodeJs</option>
+            <option value=".net">.NET</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+            <option value="ruby">RUBY</option>
+            <option value="mysql">MySQL</option>
+            <option value="mong0db">mongoDB</option>
+            <option value="aws">AWS</option>
+            <option value="docker">DOCKER</option>
+            <option value="kubernetes">Kubernetes</option>
+            <option value="laravel">LARAVEL</option>
+        </select><br>
+        <select name="course-name" id="course-name">
+            <option value="select your case" disabled selected>Select your case</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="springboot">SpringBoot</option>
+            <option value="nodejs">NodeJs</option>
+            <option value=".net">.NET</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+            <option value="ruby">RUBY</option>
+            <option value="mysql">MySQL</option>
+            <option value="mong0db">mongoDB</option>
+            <option value="aws">AWS</option>
+            <option value="docker">DOCKER</option>
+            <option value="kubernetes">Kubernetes</option>
+            <option value="laravel">LARAVEL</option>
+        </select><br>
+        <select name="course-name" id="course-name">
+            <option value="select your case" disabled selected>Select your case</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="springboot">SpringBoot</option>
+            <option value="nodejs">NodeJs</option>
+            <option value=".net">.NET</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+            <option value="ruby">RUBY</option>
+            <option value="mysql">MySQL</option>
+            <option value="mong0db">mongoDB</option>
+            <option value="aws">AWS</option>
+            <option value="docker">DOCKER</option>
+            <option value="kubernetes">Kubernetes</option>
+            <option value="laravel">LARAVEL</option>
+        </select><br>
+        </fieldset>
+
+        <br>
+        <hr>
+        <br>
+
+        <fieldset>
+        <legend><h3>ROLE OF APPLICATIONS --></h3></legend>
+        <p>----------------------------------------------------------</p>
+        <label for="apply-for-role">Choose your job role :-</label>
+        <label for="role">Fronted</label>
+        <input type="radio" name="role" id="role" value="Fronted">
+        <label for="role">Backend</label>
+        <input type="radio" name="role" id="role" value="Backend">
+        <label for="role">FullStack</label>
+        <input type="radio" name="role" id="role" value="FullStack">
+
+        <br><br>
+
+        <label for="time">Preffered work time :-</label>
+        <select name="time" id="time">
+            <option value="choose time" disabled selected>Choose preffered time</option>
+            <option value="internship">Internship</option>
+            <option value="part-time">PartTime</option>
+            <option value="full-time">FullTime</option>
+        </select>
+
+        <br><br>
+
+        <label for="salary">Expected Salary :-</label>
+        <input type="number" name="salary" id="salary">
+        </fieldset>
+
+        <br>
+        <hr>
+        <br>
+
+        <fieldset>
+        <legend><h3>IDENTITY PROOF</h3></legend>
+        <p>--------------------------------------------</p>
+        <label for="voter-card">Voter Card :-</label>
+        <input type="number" name="voter-card" id="voter-card">
+        <input type="file" name="voter-card" id="voter-card">
+
+        <br><br>
+
+        <label for="aadhaar-card">Aadhaar Card :-</label>
+        <input type="number" name="aadhaar-card" id="aadhaar-card">
+        <input type="file" name="aadhaar-card" id="aadhaar-card">
+
+        <br><br>
+
+        <label for="college-marksheet">Upload your Graduation marksheet :-</label>
+        <input type="file" name="college-marksheet" id="college-marksheet">
+
+        <br><br>
+
+        <label for="class-12th-marksheet">Upload your Class 12th marksheet :-</label>
+        <input type="file" name="class-12th-marksheet" id="class-12th-marksheet">
+
+        <br><br>
+
+        <label for="class-10th-marksheet">Upload your Class 10th marksheet :-</label>
+        <input type="file" name="class-10th-marksheet" id="class-10th-marksheet">
+        </fieldset>
+
+        <br>
+        <hr>
+        <br>
+
+        <fieldset>
+        <legend><h3>RESUME , REFERRALS AND OTHERS--></h3></legend>
+        <p>------------------------------------------------------------------------------</p>
+        <label for="resume">Upload your resume :-</label>
+        <input type="file" name="resume" id="resume">
+
+        <br><br>
+
+        <label for="referrals">Referrals :-</label>
+        <input type="text" name="numText">
+
+        <br><br>
+
+        <label for="others">( How did you hear about us ? ) :-</label>
+        <select name="others" id="others">
+            <option value="select the correct option" disabled selected>select the correct option</option>
+            <option value="linkedin">Linkedin</option>
+            <option value="google">Google</option>
+            <option value="naukri">Naukri</option>
+            <option value="indeed">Indeed</option>
+            <option value="facebook">Facebook</option>
+            <option value="instagram">Instagram</option>
+            <option value="others">Others</option>
+        </select>
+        <label for="others"> , if you select others then you can fill this box</label>
+        <input type="text" name="others" id="others">
+        </fieldset>
+
+        <br>
+        <hr>
+        <br>
+
+        <fieldset>
+        <legend><h3>CREATE YOUR ACCOUNTS --></h3></legend>
+        <P>--------------------------------------------------------------------</P>
+        <label for="username">Create your username :-</label>
+        <input type="text" name="numText">
+
+        <br><br>
+
+        <label for="userpass">Create your password :-</label>
+        <input type="password" name="userpass" id="userpass">
+        
+        <br><br>
+
+        <label for="security-question">Security question :-</label>
+        <select name="security-question" id="security-question">
+            <option value="select your security question" disabled selected>Select your security question</option>
+            <option value="what-is-your-mother-name-?">What is your mother name ?</option>
+            <option value="what-is-your-mother-tongue-?">What is your mother tongue ?</option>
+            <option value="what-is-your-country-?">What is your country ?</option>
+            <option value="what-is-your-best-football-player-?">What is your best footbal player ?</option>
+        </select>
+
+        <br><br>
+
+        <label for="security-answer">Security answer :-</label>
+        <input type="password" name="security-answer" id="security-answer">
+        </fieldset>
+
+        <br>
+        <hr>
+        <br>
+
+        <fieldset>
+        <input type="checkbox" value="terms-and-condition" id="terms-and-condition">
+        <label for="terms-and-condition">I agree to the Terms and Condition .</label>
+        </fieldset>
+
+        <br>
+        <hr>
+        <br>
+
+        <fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear Form</button>
+        </fieldset>
+
+        <br>
+        <hr>
+    </form>
+</body>
+</html>

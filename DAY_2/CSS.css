@@ -1,0 +1,10 @@
+.first {
+    text-align : center ;
+    background-color : rgb(187, 8, 8) ;
+}
+
+#second {
+    font-size : 25px ;
+    text-align : left ;
+    background-color : skyblue ;
+}
