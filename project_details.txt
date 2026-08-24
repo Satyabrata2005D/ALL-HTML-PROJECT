@@ -1,0 +1,28 @@
+Project Details (Short) : -
+---------------------------------
+1. Job Application Webpage — A webpage for filling out job application details.
+2. Neymar Biography Website — A multi-page website about Neymar, including biography, skills, videos, contact information, and trophy moments.
+3. Computer Science Roadmap — A webpage showing a structured learning path for computer science.
+4. College Timetable — A timetable created using HTML tables.
+5. Daily Meal Plan — A webpage showing a daily food/meal schedule.
+6. Fruit Price Calculator — Displays fruits, colours, prices, and total cost using tables.
+7. Item Price Calculation — Shows item quantity, price, and total price.
+8. User Contact Details — Displays names and contact information in table format.
+9. Engineering and Marketing Chain — Shows divisions or organizational structure using HTML tables.
+10. Basic Information Page — A simple webpage for displaying personal or general information.
+11. Basic HTML Table and Form Examples — Practice projects for creating tables and forms.
+12. Image Project — Demonstrates displaying an image using a nested folder structure.
+
+
+Main Technologies Used : -
+--------------------------------
+HTML
+CSS
+HTML Tables
+Forms
+Images
+Videos
+Hyperlinks
+Basic webpage structure
+
+▻ The most complete project in the ZIP file appears to be the Neymar Biography Website . 
